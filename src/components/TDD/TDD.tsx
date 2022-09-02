@@ -1,7 +1,6 @@
 import React from 'react'
-interface TDDProps {
-    name?: string
-}
+import { TDDProps } from './TDD.types';
+
 export const TDD = (props: TDDProps) => {
     const { name } = props;
   return (
